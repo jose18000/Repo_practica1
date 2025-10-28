@@ -22,8 +22,13 @@ public class Profesor {
     public void setPrograma(String programa) {
         this.programa = programa;
     }
+
+    @Override
+    public String toString() {
+        return "Profesor [nombre=" + nombre + ", programa=" + programa + "]";
+    }
+
     
-        
 
     
 }
