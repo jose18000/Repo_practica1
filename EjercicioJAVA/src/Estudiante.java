@@ -29,6 +29,13 @@ public class Estudiante {
         this.carrera = carrera;
     }
 
-   
+
+    
+
+    @Override
+    public String toString() {
+        return "Estudiante [nombre=" + nombre + ", carrera=" + carrera + "]";
+    }
+
 
 }
