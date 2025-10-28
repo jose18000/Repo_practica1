@@ -25,5 +25,10 @@ public int getHoras() {
 public void setHoras(int horas) {
     this.horas = horas;
 }
+@Override
+public String toString() {
+    return "Practicante [nombre=" + nombre + ", universidad=" + universidad + ", horas=" + horas + "]";
+}
+
 
 }
